@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms Practice</title>
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body>
+<form action="./recive.html"       method="get">
+   <div><lable for="">Write your name: </lable>
+    <input placeholder="please write your name" required name="name"/></div> 
+<div>
+    <lable for="name">Write your name</lable>
+    <input placeholder="please write your comments" disabled name="name" id="name"/>
+</div>
+   <div>
+    <label for="">do you like pizza</label>
+    <input type="checkbox" value="pizzayes" name="pizza" id="pizza">
+   </div>
+   <div>
+    <h1>select if you agree</h1>
+    <input type ="radio" value="yes" name="agree"/>yes<br/>
+    <input type ="radio" value="no" name="agree"/>no<br/>
+    <input type ="radio" value="maybe" name="agree"/>maybe<br/>
+    
+   </div>
+   <div>
+    <h1>Do you like to travel</h1>
+    <input type ="radio" value="yes" name="agree"/>yes<br/>
+    <input type ="radio" value="no" name="agree"/>no<br/>
+    <input type ="radio" value="maybe" name="agree"/>maybe<br/>
+   </div>
+   <fieldset>
+    <legend> Login <Form:get></Form:get></legend>
+    <label for="email">write your email</label>
+    <input type="email" name="email" id="email">
+    <label for="password">write your password</label>
+    <input type="password" name="password" id="password"/>
+    <label for="pnone"> write your phone</label>
+    <input type="phone" id="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"/>
+    <input type="range" name="range" id="range" min="100" max="500"/>
+    
+    <select name="" id="">
+        <option value=""> option one</option>
+        <option value=""> option one</option>
+        <option value=""> option one</option>
+    </select>
+    <input type="file"/>
+    <input type="time"/>
+<div>
+
+    <label for="color">select  the color for your background</label>
+<input type="color" name="color" id="color"/>
+</div>
+   </fieldset>
+   <button> send</button>
+
+</form>
+    </body>
+
+
+</html>

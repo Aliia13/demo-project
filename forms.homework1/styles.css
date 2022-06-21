@@ -1,0 +1,87 @@
+body{
+background-image: url("https://i.pinimg.com/736x/0a/dc/14/0adc1445b0e4859748f4b5b489a7cb1f.jpg");
+
+}
+
+.space{
+display: inline-block;
+width: 100px;
+}
+
+.container{
+    width: 700px;
+    margin: auto;
+    background-color:rgb(49, 65, 238);
+    color: white !important;
+}
+form{
+    height: auto;
+    width: 200px;
+}
+h1{
+    color: white;
+    text-align: left;
+    position: relative;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+}
+h2{
+    color: white;
+    text-align:left;
+    position: relative;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+h3{
+    color: white;
+    text-align: left;
+    position: relative;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+}
+div{
+    color: white;
+    text-align: left;
+    position: relative;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    float: none;
+}
+.radio{
+    color: white;
+    text-align: left;
+    position: absolute;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    pad: 10px;
+
+}
+.checkbox{
+    color: white;
+    text-align: left;
+    position: absolute;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    pad: 10px;
+}
+textarea{
+    width: 14%;
+  height: 70px;
+  padding: 5px 10px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+}
+ button{
+    margin-top: 0.5rem;
+ }
+
+label{
+    float: none;
+}
+

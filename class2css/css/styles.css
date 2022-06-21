@@ -1,0 +1,39 @@
+
+
+a{
+    font-size: 25px;
+    color: rgb(133, 15, 15);
+}
+li{
+    color:green
+}
+ol li{
+    color:red;
+    font-size: 25px;
+}
+mark{
+    font-size: 50px;
+    color:red;
+}
+p mark{
+color:hotpink;
+font-size:70px;
+background-color: burlywood;
+}
+p{
+    color:blueviolet;
+}
+
+.text_orange{
+    color:orange;
+}
+#parablue{
+    color:rgb(133, 15, 15);
+}
+.classtest{
+    color:green;
+    font-family: 25px;
+}
+.classtest{
+    color: blue;
+}

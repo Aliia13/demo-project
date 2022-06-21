@@ -1,0 +1,27 @@
+body{
+    background-color: violet;
+}
+form{
+    background-color: white;
+    padding: 1rem;
+    border:solid 10px black;
+    border-radius: 25px;
+    width:400px;
+    margin:auto;
+    position: relative;
+    top:100px;
+    text-align: center;
+}
+input{
+    margin-bottom:40px;
+    font-size: 25px;
+
+}
+label{
+    color: red; 
+    text-shadow: 1px 1px black;
+}
+#name{
+    border-radius: 10px;
+    padding:0.1rem 1rem;
+}

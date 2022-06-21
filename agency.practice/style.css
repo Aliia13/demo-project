@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: sans-serif;
+    text-align: center;
+}
+header{
+    height: 70vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("https://learn.seytech.co/assets/projects/html-css/images/agency/code-screen.png");
+    color: white;
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+header div{
+    width: 60%;
+    position: relative;
+    top:30%;
+    left:20%;
+}
+header div h1{
+    line-height: 1.5cm;
+    margin-bottom: 1rem;
+}
+header div p{
+    line-height: 25px;
+    margin-bottom: 2rem;
+}
+header div button{
+    background-color: transparent;
+    border: 1px white solid;
+    color: white;
+    padding: 1rem 2rem;
+    cursor: pointer;
+}
+.about-us{
+    background-color: #eaeaea;
+    padding: 2rem 2rem 4rem 2rem;
+}
+.about-us h2{
+    font-size: x-large;
+    margin-bottom: 2rem;
+}
+.about-us p{
+    line-height: 25px;
+}
+.services{
+    background-color: #333;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.service{
+    width: 90%;
+    margin: auto;
+    background-color: #eaeaea;
+    margin-bottom: 1rem;
+}
+.service img{
+    width: 100%;
+}
+
+.service h3{
+    margin: 1rem auto;
+}
+.service p{
+    width: 80%;
+    margin: auto;
+    padding-bottom: 2rem;
+}
+
+
+
+@media screen and (min-width:700px) {
+    .about-us p{
+        width: 50%;
+        float: left;
+    }
+    .cleaner{
+        clear: both;
+    }
+}

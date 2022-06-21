@@ -1,0 +1,83 @@
+body{
+    margin:0px;
+    background-color: aqua;
+}
+header{
+    background-color: orange;
+    padding: 20px 50px;
+}
+
+.logo{
+    width:150px;
+    height:150x;
+    border:white 10px solid;
+    border-radius: 25px;
+
+}
+.title{
+    color: white;
+    font-size: 45px;
+
+}
+ul{
+    list-style: none;
+}
+ul li{
+    width:150px;
+    background-color: olivedrab;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    transition: all 1s;
+
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+
+}
+ul li:hover{
+    background-color: violet;
+
+}
+ol{
+    background-color: grey ;
+    font-size: 20px;
+    
+}
+ol li{
+    padding-bottom: 10px;
+    padding-top: 5px;
+    border-bottom: solid orange 1px;
+
+
+}
+ tr th{
+    background-color: deepskyblue;
+    padding:10px;
+}
+td{
+    padding: 10px;
+}
+td a{
+    text-decoration:none ;
+
+}
+tr td a{
+    background-color: rgb(85, 77, 77);
+    font-size: 25px;
+    color: orange;
+
+}
+.odd{
+    background-color: aquamarine;
+}
+p{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    background-color: darkcyan;
+    border: solid 12px darkorange;
+}
